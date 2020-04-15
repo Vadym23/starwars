@@ -94,8 +94,8 @@ body {
     position: absolute;
     width: 65px;
     height: 65px;
-    background: #fff;
-    border-radius: 50% url("../img/polygon.svg") center no-repeat;
+    background: #fff url("../img/polygon.svg") center no-repeat;
+    border-radius: 50%;
     right: 0;
     top: 0;
 }
@@ -109,5 +109,58 @@ body {
     position: absolute;
     right: -8px;
     top: -8px;
+}
+
+.episodes {
+    padding: 60px 0;
+}
+
+.episodes-title {
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 24px;
+}
+
+.slider {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.slider-item {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 250px;
+    min-height: 200px;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+    padding: 30px;
+    box-shadow: 0px 10px 26px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.slider-item:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(80, 80, 80, 0.86);
+    transition: all 0.2s;
+}
+
+.slider-item:hover:before {
+    background-color: rgba(64, 101, 255, 0.86);
+}
+
+.slider-img {
+    position: absolute;
+    left: 0px;
+    top: 0;
+    z-index: -2;
 }
 
