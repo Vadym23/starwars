@@ -13,7 +13,9 @@
 
 body {
     font-family: 'Roboto', sans-serif;
-    background: #070506 url("../img/main-bg.png");
+    background: #070506 url("../img/main-bg.png") top right 70% no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
     color: #fff;
 }
 
@@ -85,8 +87,10 @@ body {
     padding: 25px 35px;
     padding-right: 80px;
     text-transform: uppercase;
+    text-decoration: none;
     font-size: 14px;
     line-height: 16px;
+    display: inline-block;
 }
 
 .button-play:after {
@@ -159,6 +163,8 @@ body {
 
 .slider-img {
     position: absolute;
+    display: block;
+    width: 250px;
     left: 0px;
     top: 0;
     z-index: -2;

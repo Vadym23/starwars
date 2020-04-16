@@ -6,10 +6,13 @@ const browserSync = require('browser-sync').create();
 
 const cssFiles = [
     './node_modules/normalize.css/normalize.css',
+    './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css',
     './src/css/style.css'
 ];
 
 const jsFiles = [
+    './node_modules/jquery/dist/jquery.min.js',
+    './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
     './src/js/main.js'
 ];
 
