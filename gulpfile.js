@@ -7,12 +7,14 @@ const browserSync = require('browser-sync').create();
 const cssFiles = [
     './node_modules/normalize.css/normalize.css',
     './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.css',
+    './node_modules/owl.carousel/dist/assets/owl.carousel.min.css',
     './src/css/style.css'
 ];
 
 const jsFiles = [
     './node_modules/jquery/dist/jquery.min.js',
     './node_modules/@fancyapps/fancybox/dist/jquery.fancybox.min.js',
+    './node_modules/owl.carousel/dist/owl.carousel.min.js',
     './src/js/main.js'
 ];
 

@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@fancyapps/fancybox": "^3.5.7",
     "browser-sync": "^2.26.7",
     "del": "^5.1.0",
     "gulp": "^4.0.2",
@@ -20,7 +19,9 @@
     "gulp-uglify": "^3.0.2"
   },
   "dependencies": {
+    "@fancyapps/fancybox": "^3.5.7",
     "jquery": "^3.4.1",
-    "normalize.css": "^8.0.1"
+    "normalize.css": "^8.0.1",
+    "owl.carousel": "^2.3.4"
   }
 }
